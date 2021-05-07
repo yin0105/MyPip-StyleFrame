@@ -198,7 +198,7 @@ class Styler:
         try:
             border_type = openpyxl_style.border.bottom.border_style
         except:
-            border_type = None
+            pass
         horizontal_alignment = openpyxl_style.alignment.horizontal
         vertical_alignment = openpyxl_style.alignment.vertical
         wrap_text = openpyxl_style.alignment.wrap_text or False
